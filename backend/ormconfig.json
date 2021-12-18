@@ -1,0 +1,21 @@
+{
+    "type": "mssql",
+    "host": "",
+    "port": ,
+    "username": "",
+    "password": "",
+    "database": "",
+    "entities": ["dist/**/*.entity{.ts,.js}"],
+    "synchronize": true,
+    "pool": {
+        "max": 10,
+        "min": 0, 
+        "idleTimeoutMillis": 30000
+      },
+      "options": {
+        "trustedconnection": true,
+        "trustServerCertificate": true,
+        "enableArithAbort": true,
+        "instancename": ""
+      }
+  }
